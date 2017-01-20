@@ -1,3 +1,6 @@
+/*
+©2017 Armando Campos
+*/
 body {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 20px;
@@ -199,9 +202,9 @@ a:hover {
 
 #toc li:hover {
 	letter-spacing: 10px;
-	-moz-transform: scale(1.4, 1.4);
-	-webkit-transform: scale(1.4, 1.4);
-	transform: scale(1.4, 1.);
+	-moz-transform: scale(1.2, 1.2);
+	-webkit-transform: scale(1.2, 1.2);
+	transform: scale(1.2, 1.2);
 }
 
 /* --- Custom Classes --- */
@@ -251,6 +254,11 @@ a:hover {
 	font-size: 16px;
 }
 
+.parag {
+	font-size: 16px;
+	margin: 8px 8px;
+}
+
 .additional {
 	font-family: 'Enriqueta', serif;
 	font-size: 16px;
@@ -284,6 +292,10 @@ a:hover {
 	display: block;
 	margin: 8px 0px;
 	border-bottom: 4px solid #c1c1c1;
+}
+
+.photoS {
+	width: 128px;
 }
 
 .photo {
