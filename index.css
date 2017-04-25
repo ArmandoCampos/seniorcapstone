@@ -302,6 +302,10 @@ a:hover {
 	width: 256px;
 }
 
+.photoL {
+	width: 360px;
+}
+
 .phover {
 	position: relative;
 	top: 0px;
