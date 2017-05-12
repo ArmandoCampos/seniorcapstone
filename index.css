@@ -295,7 +295,7 @@ a:hover {
 }
 
 .photoS {
-	width: 128px;
+	width: 88px;
 }
 
 .photo {
@@ -304,6 +304,14 @@ a:hover {
 
 .photoL {
 	width: 360px;
+}
+
+.photoXL {
+	width: 480px;
+}
+
+.photofit {
+	width: 100%;
 }
 
 .phover {
@@ -401,8 +409,8 @@ a:hover {
 	border: 10px solid #FBC02D;
 	overflow: hidden;
 	/* overflow: scroll; */
-	width: 240px;
-	height: 200px;
+	width: 420px;
+	height: 420px;
 	box-shadow: 8px 8px 2px #F57F17;
 }
 
@@ -450,7 +458,7 @@ a:hover {
 	transition: top 0.8s ease-out;
 }
 
-.stepcarousel .panel {
+.stepcarousel .panels {
 	float: left;
 	overflow: hidden;
 	margin: 15px;
@@ -458,14 +466,14 @@ a:hover {
 }
 
 .panelimg {
-	width: 180px;
+	width: 360;
 	display: block;
 }
 
 .beltbtns {
 	background-color: #FBC02D;
 	position: absolute;
-	left: 180px;
+	left: 360;
 	top: 0px;
 	height: 160px;
 	/*border: 8px solid black;*/
